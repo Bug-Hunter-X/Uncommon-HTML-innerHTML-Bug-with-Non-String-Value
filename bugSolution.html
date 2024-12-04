@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    // Correctly using innerHTML by converting number to string
+    document.getElementById("myDiv").innerHTML = 123.toString(); 
+    //Alternative using string concatenation
+    document.getElementById("myDiv").innerHTML = "" + 123; 
+  </script>
+</body>
+</html>
