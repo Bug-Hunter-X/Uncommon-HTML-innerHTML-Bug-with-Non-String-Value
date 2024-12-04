@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    // Incorrectly using innerHTML to add a non-string value
+    document.getElementById("myDiv").innerHTML = 123; 
+  </script>
+</body>
+</html>
